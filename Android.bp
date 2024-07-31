@@ -135,10 +135,11 @@ cc_defaults {
         "-Wno-unused-variable",
         "-Wno-array-suspicious",
         "-fvisibility=hidden",
+        "-O3",
     ],
 
     cppflags:[
-        
+        "-O3",
     ],
 
     export_include_dirs: [
